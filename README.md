@@ -1,13 +1,13 @@
-Human-Traffic-Of-Stadium (LeetCode Problem)::
----------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Human-Traffic-Of-Stadium (LeetCode Problem)::
+
 Table: Stadium
-+---------------+---------+
+
 | Column Name   | Type    |
-+---------------+---------+
+| ------------- |  -------|
 | id            | int     |
 | visit_date    | date    |
 | people        | int     |
-+---------------+---------+
+
 visit_date is the primary key for this table.
 Each row of this table contains the visit date and visit id to the stadium with the number of people during the visit.
 No two rows will have the same visit_date, and as the id increases, the dates increase as well.
@@ -19,9 +19,8 @@ Example 1:
 
 Input: 
 Stadium table:
-+------+------------+-----------+
 | id   | visit_date | people    |
-+------+------------+-----------+
+|------|------------|-----------|
 | 1    | 2017-01-01 | 10        |
 | 2    | 2017-01-02 | 109       |
 | 3    | 2017-01-03 | 150       |
@@ -30,13 +29,12 @@ Stadium table:
 | 6    | 2017-01-06 | 1455      |
 | 7    | 2017-01-07 | 199       |
 | 8    | 2017-01-09 | 188       |
-+------+------------+-----------+
+
 Output: 
-+------+------------+-----------+
 | id   | visit_date | people    |
-+------+------------+-----------+
+|------|------------|-----------|
 | 5    | 2017-01-05 | 145       |
 | 6    | 2017-01-06 | 1455      |
 | 7    | 2017-01-07 | 199       |
 | 8    | 2017-01-09 | 188       |
-+------+------------+-----------+
+
