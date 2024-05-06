@@ -14,7 +14,8 @@ ListPrice
 Inventory quantity
 */
 
-USE AdventureWorks2012;
+USE AdventureWorks2012
+GO
 
 SELECT productId=p.productid
 	, productName=p.name
