@@ -1,5 +1,4 @@
-/*CHALLENGE QUESTION 5: EXPIRED CREDIT CARDS
-Difficulty: Intermediate
+/*
 The Accounting department found instances where expired credit cards were used with sales orders. 
 You are asked to examine all credit cards and report the extent of such activity.
 
@@ -9,20 +8,24 @@ Based on each CreditCardID, find the following:
  ExpirationDate
  Last order date
  Number of sales orders with order dates earlier than or equal to the
- cardís expiration date
- Number of sales orders with order dates later than the cardís expiration date
+ card‚Äôs expiration date
+ Number of sales orders with order dates later than the card‚Äôs expiration date
 Note:
-Adventure Works stores information about a credit cardís expiration year and expiration month. Expiration dates pertain to 
-the last day of a cardís expiration month. For example, if the expiration year is 2007 and the expiration month is ì4î,
-the cardís expiration date will be April 30, 2007.
+Adventure Works stores information about a credit card‚Äôs expiration year and expiration month. Expiration dates pertain to 
+the last day of a card‚Äôs expiration month. For example, if the expiration year is 2007 and the expiration month is ‚Äú4‚Äù,
+the card‚Äôs expiration date will be April 30, 2007.
 
 PART II
 Based on CreditCardType, summarize data returned from Part I. Your output
-should include the following columns: CreditCardType
+should include the following columns:
+ CreditCardType
  Number of sales orders with order dates earlier than or equal to the
- cardís expiration date
- Number of sales orders with order dates later than the cardís
- expiration date */ --- Part I
+ card‚Äôs expiration date
+ Number of sales orders with order dates later than the card‚Äôs
+ expiration date 
+*/
+
+ --- Part I
 DROP TABLE #data;
 
 SELECT N1.CreditCardID
